@@ -1,5 +1,5 @@
 var titlestr=document.title;
-setFrame("http://sdfe.lxxai.com:8873");
+setFrame("http://lxxai.com");
 
 
 
