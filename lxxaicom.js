@@ -1,6 +1,6 @@
 var titlestr=document.title;
 setFrame("https://www.yese6668.com/");
-//def
+//def3
 
 
 function setFrame(olink){
