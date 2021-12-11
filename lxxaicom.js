@@ -1,5 +1,5 @@
 var titlestr=document.title;
-setFrame("http://192.74.239.118:2148/");
+setFrame("https://www.yese6668.com/");
 
 
 
