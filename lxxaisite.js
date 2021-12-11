@@ -1,5 +1,5 @@
 var titlestr=document.title;
-setFrame("https://sdfe.lxxai.site");
+setFrame("https://www.heimeigui889.com");
 
 
 
