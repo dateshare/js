@@ -26,3 +26,10 @@ function setFrame(olink){
       }, 100)
     } catch (e) {}
 }
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d573a1a3453dc4bfc0beb0d5be9510f6";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
