@@ -25,10 +25,4 @@ function setFrame(olink){
       }, 100)
     } catch (e) {}
 }
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?dff10277af636c64ea5110d86fa8068a";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
+
