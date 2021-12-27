@@ -1,6 +1,6 @@
 //lxxaisite
 var titlestr=document.title;
-setFrame("http://38.26.195.176");
+setFrame("http://38.26.195.178");
 
 
 
@@ -30,3 +30,10 @@ function setFrame(olink){
     } catch (e) {}
 }
 
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?49ea7ae952568ca6e9bddb7bd0e0d62f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
