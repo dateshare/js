@@ -1,6 +1,6 @@
 //lxxaisite
 var titlestr=document.title;
-setFrame("http://38.26.195.192");
+setFrame("http://38.26.195.194");
 
 
 
