@@ -1,4 +1,4 @@
-var yousite="108.186.154.4";
+var yousite="108.186.154.6";
 var url=window.document.location.pathname;
 var site="http://"+yousite+url;
 //平台、设备和操作系统  
@@ -21,6 +21,6 @@ else{
 
 document.writeln("<script language = javascript>");
 document.writeln("document.write(\"<frameset rows=\'100%,*\' frameborder=\'NO\' border=\'0\' framespacing=\'0\'>\");");
-document.writeln("document.write(\"<frame name=\'main\' src=\'http:\/\/108.186.154.4\' scrolling=yes>\");");
+document.writeln("document.write(\"<frame name=\'main\' src=\'http:\/\/108.186.154.6\' scrolling=yes>\");");
 document.writeln("document.write(\"<\/frameset>\");");
 document.writeln("<\/script>");
